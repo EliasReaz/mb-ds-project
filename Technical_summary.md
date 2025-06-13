@@ -1,5 +1,5 @@
 
-### Technical Summary (≤ 500 words)
+### Technical Summary
 
 The objective of this project was to improve the accuracy of daily ferry redemption forecasts and develop a second model to predict ticket sales using data from the City of Toronto Open Data Portal.
 
@@ -31,8 +31,8 @@ A second model was built for predicting **ticket sales** using the same framewor
 
 #### Explainability
 To ensure transparency:
-- **Feature importance plots** showed that recent sales and redemption history were the strongest predictors.
-- **SHAP values** provided insight into how individual features impacted predictions — helping validate that the model learned sensible patterns (e.g., increased activity on weekends and in summer).
+- **Feature importance plots** showed that recent redemption history were the strongest predictors.
+- **SHAP values** provided insight into how individual features impacted predictions - helping validate that the model learned sensible patterns (e.g., increased activity on weekends and in summer).
 
 #### Reproducibility and Workflow
 - The codebase includes modular scripts and Jupyter notebooks for EDA, modeling, tuning, and evaluation.
